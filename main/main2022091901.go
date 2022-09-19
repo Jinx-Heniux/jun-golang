@@ -8,54 +8,51 @@ package main
 
 /*
 import (
+	"fmt"
+	"time"
+
 	"github.com/Jinx-Heniux/jun-golang-hello-world/learn_exception"
 )
 
 func main() {
-	learn_exception.Test()
+
+
+	fmt.Println("##############################")
+	learn_exception.Test1()
+	time.Sleep(time.Second * 2)
+
+	fmt.Println("##############################")
+	learn_exception.Test2()
+	time.Sleep(time.Second * 2)
+
+	fmt.Println("##############################")
+	learn_exception.Test3()
+	time.Sleep(time.Second * 2)
+
+	fmt.Println("##############################")
+	learn_exception.Test4()
+	time.Sleep(time.Second * 2)
+
 }
 */
-
-/*
-panic error!
-*/
-
-//////////////////////////////////////////////////
-
-/*
-import (
-	"fmt"
-)
-
-func main() {
-	defer func() {
-		if err := recover(); err != nil {
-			fmt.Println(err)
-		}
-	}()
-
-	var ch chan int = make(chan int, 10)
-	close(ch)
-	ch <- 1
-}
-*/
-
-/*
-send on closed channel
-*/
-
-//////////////////////////////////////////////////
 
 /*
 import "fmt"
 
 func test() {
+	// defer func() {
+	// 	fmt.Println(recover()) //有效
+	// }()
+	defer recover()              //无效！
+	defer fmt.Println(recover()) //无效！
 	defer func() {
-		fmt.Println(recover())
+		func() {
+			println("defer inner")
+			recover() //无效！
+		}()
 	}()
-
 	defer func() {
-		panic("defer panic")
+		fmt.Println(recover()) //有效
 	}()
 
 	panic("test panic")
@@ -65,9 +62,3 @@ func main() {
 	test()
 }
 */
-
-/*
-defer panic
-*/
-
-//////////////////////////////////////////////////
