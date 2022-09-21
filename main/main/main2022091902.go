@@ -9,35 +9,22 @@ package main
 /*
 import (
 	"fmt"
-	"time"
 
 	"github.com/Jinx-Heniux/jun-golang-hello-world/learn_exception"
 )
 
 func main() {
 
-
-	fmt.Println("##############################")
-	learn_exception.Test1()
-	time.Sleep(time.Second * 2)
-
-	fmt.Println("##############################")
-	learn_exception.Test2()
-	time.Sleep(time.Second * 2)
-
-	fmt.Println("##############################")
-	learn_exception.Test3()
-	time.Sleep(time.Second * 2)
-
-	fmt.Println("##############################")
-	learn_exception.Test4()
-	time.Sleep(time.Second * 2)
+	// fmt.Println("##############################")
+	// learn_exception.Test4()
 
 }
 */
 
 /*
 import "fmt"
+
+// compared to learn_exception.Test4()
 
 func test() {
 	// defer func() {

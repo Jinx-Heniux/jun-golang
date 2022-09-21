@@ -74,3 +74,40 @@ func Test4() {
 
 	panic("Test4(): test panic")
 }
+
+func except() {
+	fmt.Println(recover())
+}
+
+func Test5() {
+	defer except()
+	panic("test panic")
+}
+
+func Test6(x, y int) {
+	var z int
+	fmt.Println(z)
+	func() {
+		defer func() {
+			if recover() != nil {
+				fmt.Println(z)
+				z = 100
+				fmt.Println(z)
+			}
+		}()
+		panic("test panic")
+		z = x / y
+		return
+	}()
+
+	fmt.Printf("x / y = %d\n", z)
+}
+
+func Try(fun func(), handler func(interface{})) {
+	defer func() {
+		if err := recover(); err != nil {
+			handler(err)
+		}
+	}()
+	fun()
+}
