@@ -6,6 +6,7 @@ package main
 // learn_function
 //////////////////////////////////////////////////
 
+/*
 import (
 	"fmt"
 
@@ -24,6 +25,7 @@ func main() {
 	fmt.Printf("Hello, %s!", name)
 
 }
+*/
 
 /*
 Init function in package learn_function/lib2!
