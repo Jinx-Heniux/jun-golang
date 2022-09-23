@@ -6,14 +6,15 @@ package main
 
 https://www.topgoer.com/%E5%87%BD%E6%95%B0/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html
 
-learn_select/select.go
+learn_concurrency/select.go
 */
 //////////////////////////////////////////////////
 
+/*
 import (
 	"fmt"
 
-	"github.com/Jinx-Heniux/jun-golang/learn_select"
+	"github.com/Jinx-Heniux/jun-golang/learn_concurrency"
 )
 
 func main() {
@@ -27,5 +28,6 @@ func main() {
 		quit <- 0
 	}()
 
-	learn_select.Fibonacci(c, quit)
+	learn_concurrency.Fibonacci(c, quit)
 }
+*/
