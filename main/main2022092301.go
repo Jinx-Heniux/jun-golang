@@ -1,15 +1,5 @@
 package main
 
-//////////////////////////////////////////////////
-/*
-3、Select · 语雀
-
-https://www.topgoer.com/%E5%87%BD%E6%95%B0/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html
-
-learn_concurrency/select.go
-*/
-//////////////////////////////////////////////////
-
 /*
 import (
 	"fmt"
