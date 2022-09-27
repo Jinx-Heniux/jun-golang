@@ -24,5 +24,9 @@ https://www.topgoer.com/%E5%87%BD%E6%95%B0/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.
 learn_concurrency/select.go
 * main2022092301.go
 
+## Golang专题精进-go配置管理库viper_哔哩哔哩_bilibili
 
+https://www.bilibili.com/video/BV1G5411S7w6/
+
+* main2022092701.go
 
