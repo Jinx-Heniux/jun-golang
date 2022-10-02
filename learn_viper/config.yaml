@@ -1,6 +1,0 @@
-db:
-  username: dbadmin
-  password: 123
-web:
-  username: webadmin
-  password: 456
