@@ -4,10 +4,8 @@ package main
 import (
 	"fmt"
 
-	// _ "github.com/Jinx-Heniux/jun-golang-hello-world/learn_function"
-	// _ "github.com/Jinx-Heniux/jun-golang-hello-world/learn_function/lib3"
-	_ "github.com/Jinx-Heniux/jun-golang/learn_function"
-	_ "github.com/Jinx-Heniux/jun-golang/learn_function/lib3"
+	_ "github.com/Jinx-Heniux/jun-golang/function"
+	_ "github.com/Jinx-Heniux/jun-golang/function/lib3"
 )
 
 func init() {
@@ -22,12 +20,12 @@ func main() {
 */
 
 /*
-Init function in package learn_function/lib2!
-Init function in package learn_function/lib1!
-Init function in package learn_function!
-Init function in package learn_function/lib3! - Copy
-Init function in package learn_function/lib3!
-Init function in package learn_function1!
+Init function in package function/lib2!
+Init function in package function/lib1!
+Init function in package function!
+Init function in package function/lib3! - Copy
+Init function in package function/lib3!
+Init function in package function1!
 Init function in package main!
 Hello, Golang!
 */

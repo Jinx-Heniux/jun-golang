@@ -4,13 +4,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/Jinx-Heniux/jun-golang-hello-world/learn_exception"
+	"github.com/Jinx-Heniux/jun-golang/exception"
 )
 
 func main() {
 
-	// fmt.Println("##############################")
-	// learn_exception.Test4()
+	fmt.Println("##############################")
+	exception.Test4()
 
 }
 */
@@ -18,7 +18,7 @@ func main() {
 /*
 import "fmt"
 
-// compared to learn_exception.Test4()
+// compared to exception.Test4()
 
 func test() {
 	// defer func() {

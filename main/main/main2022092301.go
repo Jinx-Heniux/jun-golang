@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Jinx-Heniux/jun-golang/learn_concurrency"
+	"github.com/Jinx-Heniux/jun-golang/concurrency"
 )
 
 func main() {
@@ -18,6 +18,6 @@ func main() {
 		quit <- 0
 	}()
 
-	learn_concurrency.Fibonacci(c, quit)
+	concurrency.Fibonacci(c, quit)
 }
 */

@@ -4,13 +4,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/Jinx-Heniux/jun-golang/learn_viper"
+	"github.com/Jinx-Heniux/jun-golang/viper"
 )
 
 func main() {
-	learn_viper.ReadIni()
+	viper.ReadIni()
 	fmt.Println("##########")
-	learn_viper.ReadYaml()
+	viper.ReadYaml()
 }
-
 */
