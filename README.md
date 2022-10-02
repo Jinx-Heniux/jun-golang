@@ -33,4 +33,5 @@ main2022092701.go
 ## [io — 基本的 IO 接口 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter01/01.1.html)
 
 main2022100201.go
-* io/reader.go
+* io/reader1.go
+* io/readerat1.go
