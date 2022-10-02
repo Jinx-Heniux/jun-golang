@@ -35,3 +35,8 @@ main2022092701.go
 main2022100201.go
 * io/reader1.go
 * io/readerat1.go
+* io/writeat1.go
+* io/readfrom1.go
+* io/writeto1.go
+* io/seeker1.go
+* io/byterwer1.go

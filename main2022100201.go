@@ -6,6 +6,16 @@ func main() {
 
 	// io.ReaderExample()
 
-	io.ReadAtExample()
+	// io.ReadAtExample()
+
+	// io.WriteAtExample()
+
+	// io.ReadFromExample()
+
+	// io.WriteToExample()
+
+	// io.SeekerExample()
+
+	io.ByteRWerExample()
 
 }
