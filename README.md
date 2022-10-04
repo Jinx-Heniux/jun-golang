@@ -40,3 +40,5 @@ main2022100201.go
 * io/writeto1.go
 * io/seeker1.go
 * io/byterwer1.go
+* io/limitedreader1.go
+* io/piperw1.go

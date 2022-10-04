@@ -16,6 +16,10 @@ func main() {
 
 	// io.SeekerExample()
 
-	io.ByteRWerExample()
+	// io.ByteRWerExample()
+
+	// io.LimitedReaderExample()
+
+	io.PipeRWExample()
 
 }
