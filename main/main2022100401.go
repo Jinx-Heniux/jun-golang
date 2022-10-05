@@ -1,5 +1,6 @@
 package main
 
+/*
 import "github.com/Jinx-Heniux/jun-golang/datatype"
 
 func main() {
@@ -9,3 +10,4 @@ func main() {
 	datatype.ChangeString()
 
 }
+*/

@@ -21,7 +21,15 @@ func main() {
 
 	// io.LimitedReaderExample()
 
-	io.PipeRWExample()
+	// io.PipeRWExample()
+
+	// io.CopyExample()
+
+	// io.CopyNExample()
+
+	// io.MultiReaderExample()
+
+	io.MultiWriterExample()
 
 }
 */

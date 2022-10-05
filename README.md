@@ -63,3 +63,5 @@ main2022100201.go
 * io/byterwer1.go
 * io/limitedreader1.go
 * io/piperw1.go
+* io/copy1.go
+* io/multirw1.go
