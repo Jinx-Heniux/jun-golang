@@ -7,6 +7,17 @@
 main2022100401.go
 * datatype/string1.go
 
+[结构体 · Go语言中文文档](https://www.topgoer.com/go%E5%9F%BA%E7%A1%80/%E7%BB%93%E6%9E%84%E4%BD%93.html)
+
+main2022100601.go
+* struct_/struct1.go
+* struct_/json1.go
+* struct_/json2.go
+* struct_/slice1.go
+* struct_/slice2.go
+* struct_/map1.go
+* struct_/map2.go
+
 
 [异常处理 · Go语言中文文档](https://www.topgoer.com/%E5%87%BD%E6%95%B0/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html)
 
