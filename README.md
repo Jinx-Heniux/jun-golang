@@ -26,6 +26,13 @@ exception/exception.go
 * main2022091902.go
 * main2022091903.go
 
+[方法定义 · Go语言中文文档](https://www.topgoer.com/%E6%96%B9%E6%B3%95/%E6%96%B9%E6%B3%95%E5%AE%9A%E4%B9%89.html)
+
+main2022100701.go
+* oo/method1.go
+* oo/method2.go
+* oo/method3.go
+* oo/method4.go
 
 [接口 · Go语言中文文档](https://www.topgoer.com/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/%E6%8E%A5%E5%8F%A3.html)
 
@@ -43,6 +50,11 @@ main2022100502.go
 
 main2022091801.go
 * function/import_init.go
+
+[10、结构体标签 · 语雀](https://www.yuque.com/aceld/mo95lb/ybul6x)
+
+main2022100601.go
+* oo/struct_/struct2.go
 
 [3、Select · 语雀](https://www.topgoer.com/%E5%87%BD%E6%95%B0/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html)
 

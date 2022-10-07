@@ -1,10 +1,11 @@
 package main
 
-import "github.com/Jinx-Heniux/jun-golang/struct_"
+/*
+import "github.com/Jinx-Heniux/jun-golang/oo/struct_"
 
 func main() {
 
-	// struct_.StructExample()
+	// struct_.StructExample1()
 
 	// struct_.JsonExample1()
 
@@ -16,5 +17,9 @@ func main() {
 
 	// struct_.MapExample1()
 
-	struct_.MapExample2()
+	// struct_.MapExample2()
+
+	struct_.StructExample2()
+
 }
+*/

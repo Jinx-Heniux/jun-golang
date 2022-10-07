@@ -9,7 +9,7 @@ type student struct {
 	age  int
 }
 
-func StructExample() {
+func StructExample1() {
 	m := make(map[string]*student)
 	stus := []student{
 		{name: "pprof.cn", age: 18},
