@@ -6,16 +6,16 @@ type Data struct {
 	x int
 }
 
-func (self Data) ValueTest() { // func ValueTest(self Data);
-	fmt.Printf("Value: %p\n", &self)
+func (data Data) ValueTest() { // func ValueTest(self Data);
+	fmt.Printf("Value: %p\n", &data)
 }
 
-func (self *Data) PointerTest() { // func PointerTest(self *Data);
-	fmt.Printf("Pointer: %p\n", self)
+func (data *Data) PointerTest() { // func PointerTest(self *Data);
+	fmt.Printf("Pointer: %p\n", data)
 }
 
 func MethodExample3() {
-	d := Data{}
+	d := Data{x: 1}
 	p := &d
 	fmt.Printf("Data: %v | %p\n", d, p)
 
