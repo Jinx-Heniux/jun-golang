@@ -34,6 +34,17 @@ main2022100701.go
 * oo/method3.go
 * oo/method4.go
 
+[匿名字段 · Go语言中文文档](https://www.topgoer.com/%E6%96%B9%E6%B3%95/%E5%8C%BF%E5%90%8D%E5%AD%97%E6%AE%B5.html)
+
+main2022100801.go
+* oo/struct_/anonymousfield1.go
+* oo/struct2_/anonymousfield1.go
+
+[方法集 · Go语言中文文档](https://www.topgoer.com/%E6%96%B9%E6%B3%95/%E6%96%B9%E6%B3%95%E9%9B%86.html)
+
+
+
+
 [接口 · Go语言中文文档](https://www.topgoer.com/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/%E6%8E%A5%E5%8F%A3.html)
 
 main2022100501.go
