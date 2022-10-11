@@ -71,6 +71,13 @@ main2022100502.go
 main2022091801.go
 * function/import_init.go
 
+[7、面向对象特征 · 语雀](https://www.yuque.com/aceld/mo95lb/aoxo9v)
+
+main2022101101.go
+* oo/method5.go
+* oo/method6.go
+* oo/method7.go
+
 [10、结构体标签 · 语雀](https://www.yuque.com/aceld/mo95lb/ybul6x)
 
 main2022100601.go
