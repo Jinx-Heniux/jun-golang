@@ -1,5 +1,6 @@
 package main
 
+/*
 import (
 	"github.com/Jinx-Heniux/jun-golang/oo"
 )
@@ -25,3 +26,4 @@ func main() {
 	oo.MethodSetExample4()
 
 }
+*/

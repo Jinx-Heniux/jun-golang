@@ -48,6 +48,11 @@ main2022100801.go
 * oo/methodset3.go
 * oo/methodset4.go
 
+[表达式 · Go语言中文文档](https://www.topgoer.com/%E6%96%B9%E6%B3%95/%E8%A1%A8%E8%BE%BE%E5%BC%8F.html)
+
+main2022101101.go
+* oo/expression/expression1.go
+* oo/expression/expression2.go
 
 [接口 · Go语言中文文档](https://www.topgoer.com/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/%E6%8E%A5%E5%8F%A3.html)
 
