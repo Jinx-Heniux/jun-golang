@@ -65,7 +65,8 @@ main2022100502.go
 main2022101201.go
 * fs/os/os1.go
 * io/bufio/bufio1.go
-
+* io/ioutil/ioutil1.go
+* io/cat1.go
 
 
 
