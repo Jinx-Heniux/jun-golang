@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Jinx-Heniux/jun-golang/io"
+	"github.com/Jinx-Heniux/jun-golang/io/ioutil"
 )
 
 func main() {
@@ -21,6 +21,8 @@ func main() {
 
 	// ioutil.IoutilExample1()
 
-	io.CatExample1()
+	// io.CatExample1()
+
+	ioutil.IoutilExample2()
 
 }

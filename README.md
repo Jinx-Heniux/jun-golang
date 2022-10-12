@@ -69,7 +69,7 @@ main2022101201.go
 * io/cat1.go
 
 
-
+---
 
 
 # 视频：8小时转职Golang工程师 刘丹冰Aceld
@@ -98,7 +98,7 @@ main2022092301.go
 
 
 
-
+---
 
 
 # 视频：Golang专题精进
@@ -109,7 +109,7 @@ main2022092701.go
 * viper/viper.go
 
 
-
+---
 
 
 
@@ -129,3 +129,8 @@ main2022100201.go
 * io/piperw1.go
 * io/copy1.go
 * io/multirw1.go
+
+[ioutil — 方便的 IO 操作函数集 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter01/01.2.html)
+
+main2022101201.go
+* io/ioutil/ioutil2.go
