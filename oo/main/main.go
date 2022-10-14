@@ -1,16 +1,16 @@
 package main
 
-/*
 import "github.com/Jinx-Heniux/jun-golang/oo"
 
 func main() {
-	// expression.ExpressionExample1()
 
-	// expression.ExpressionExample2()
+	// oo.MethodSetExample1()
 
-	// expression.ExpressionExample3()
+	// oo.MethodSetExample2()
 
-	// expression.ExpressionExample4()
+	// oo.MethodSetExample3()
+
+	// oo.MethodSetExample4()
 
 	// oo.MethodExample5()
 
@@ -21,4 +21,3 @@ func main() {
 	oo.MethodExample7()
 
 }
-*/
