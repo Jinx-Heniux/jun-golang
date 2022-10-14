@@ -60,6 +60,13 @@ main2022100501.go
 main2022100502.go
 * oo/interface1.go
 
+[fmt · Go语言中文文档](https://www.topgoer.com/%E5%B8%B8%E7%94%A8%E6%A0%87%E5%87%86%E5%BA%93/fmt.html)
+
+* io/fmt/fmt1.go
+* io/fmt/placeholder1.go
+* io/bufio/bufio2.go
+
+
 [IO操作 · Go语言中文文档](https://www.topgoer.com/%E5%B8%B8%E7%94%A8%E6%A0%87%E5%87%86%E5%BA%93/IO%E6%93%8D%E4%BD%9C.html)
 
 main2022101201.go

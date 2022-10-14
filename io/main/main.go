@@ -1,6 +1,8 @@
 package main
 
-import "github.com/Jinx-Heniux/jun-golang/io/ioutil"
+import (
+	"github.com/Jinx-Heniux/jun-golang/io/bufio"
+)
 
 func main() {
 
@@ -10,6 +12,12 @@ func main() {
 
 	// io.CatExample1()
 
-	ioutil.IoutilExample2()
+	// ioutil.IoutilExample2()
+
+	// fmt.FprintfExample1()
+
+	// fmt.Placeholder1()
+
+	bufio.BufioExample2()
 
 }
