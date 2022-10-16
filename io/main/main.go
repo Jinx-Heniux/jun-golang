@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Jinx-Heniux/jun-golang/io/bufio"
+	"github.com/Jinx-Heniux/jun-golang/io/fmt"
 )
 
 func main() {
@@ -10,7 +10,7 @@ func main() {
 
 	// ioutil.IoutilExample1()
 
-	// io.CatExample1()
+	// bufio.CatExample1()
 
 	// ioutil.IoutilExample2()
 
@@ -18,6 +18,14 @@ func main() {
 
 	// fmt.Placeholder1()
 
-	bufio.BufioExample2()
+	// bufio.BufioExample2()
+
+	// fmt.FmtExample1()
+
+	// fmt.StringerExample1()
+
+	// fmt.SscanExample1()
+
+	fmt.SscanfExample1()
 
 }

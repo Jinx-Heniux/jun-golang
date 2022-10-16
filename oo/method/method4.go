@@ -1,4 +1,4 @@
-package oo
+package method
 
 //普通函数与方法的区别（在接收者分别为值类型和指针类型的时候）
 

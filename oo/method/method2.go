@@ -1,4 +1,4 @@
-package oo
+package method
 
 import (
 	"fmt"

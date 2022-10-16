@@ -1,4 +1,4 @@
-package oo
+package interface1
 
 import "fmt"
 

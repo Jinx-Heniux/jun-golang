@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Jinx-Heniux/jun-golang/oo"
+import "github.com/Jinx-Heniux/jun-golang/oo/expression"
 
 func main() {
 
@@ -18,6 +18,14 @@ func main() {
 
 	// oo.MethodExample6_1()
 
-	oo.MethodExample7()
+	// oo.MethodExample7()
+
+	// expression.ExpressionExample1()
+
+	// expression.ExpressionExample2()
+
+	// expression.ExpressionExample3()
+
+	expression.ExpressionExample4()
 
 }

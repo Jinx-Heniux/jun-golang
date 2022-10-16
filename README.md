@@ -141,3 +141,14 @@ main2022100201.go
 
 main2022101201.go
 * io/ioutil/ioutil2.go
+
+[fmt — 格式化 IO · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter01/01.3.html)
+
+* io/fmt/fmt2.go
+* io/fmt/fmt3.go
+* io/fmt/fmt1.go
+
+
+
+
+
