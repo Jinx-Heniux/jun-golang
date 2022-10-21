@@ -10,23 +10,23 @@ func main() {
 
 	// ioutil.IoutilExample1()
 
-	// bufio.CatCommand1()
+	// bufio.Bufio4CatCommand1()
 
 	// ioutil.IoutilExample2()
 
-	// fmt.FprintfExample1()
+	// fmt.Fmt1Fprintf1()
 
-	// fmt.Placeholder1()
+	// fmt.Fmt4Placeholder1()
 
 	// bufio.Bufio2NewReaderReadString1()
 
-	// fmt.FmtExample1()
+	// fmt.Fmt2Format1()
 
-	// fmt.StringerExample1()
+	// fmt.Fmt3Stringer1()
 
-	// fmt.SscanExample1()
+	// fmt.Fmt1Sscan1()
 
-	// fmt.SscanfExample1()
+	// fmt.Fmt1Sscanf1()
 
 	// bufio.Bufio3NewReaderReadSlice()
 

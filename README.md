@@ -67,7 +67,7 @@ main2022100502.go
 [fmt · Go语言中文文档](https://www.topgoer.com/%E5%B8%B8%E7%94%A8%E6%A0%87%E5%87%86%E5%BA%93/fmt.html)
 
 * io/fmt/fmt1.go
-* io/fmt/placeholder1.go
+* io/fmt/fmt4.go
 * io/bufio/bufio2.go
 
 
@@ -77,7 +77,7 @@ main2022101201.go
 * fs/os/os1.go
 * io/bufio/bufio1.go
 * io/ioutil/ioutil1.go
-* io/cat1.go
+* io/fmt/fmt4.go
 
 
 ---

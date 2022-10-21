@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Placeholder1() {
+func Fmt4Placeholder1() {
 	fmt.Printf("%v\n", 100)
 	fmt.Printf("%v\n", false)
 	o := struct{ name string }{"枯藤"}

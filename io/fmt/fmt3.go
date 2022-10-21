@@ -38,7 +38,7 @@ func (person *Person) Format(f fmt.State, c rune) {
 	}
 }
 
-func StringerExample1() {
+func Fmt3Stringer1() {
 	person1 := &Person{
 		"jun",
 		18,

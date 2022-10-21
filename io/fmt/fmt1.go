@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func FprintfExample1() {
+func Fmt1Fprintf1() {
 	// 向标准输出写入内容
 	fmt.Fprintln(os.Stdout, "向标准输出写入内容")
 	fileObj, err := os.OpenFile("./io/fmt/fmtexample1.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
@@ -18,7 +18,7 @@ func FprintfExample1() {
 	fmt.Fprintf(fileObj, "往文件中写如信息：%s", name)
 }
 
-func SscanExample1() {
+func Fmt1Sscan1() {
 	var (
 		name string
 		age  int
@@ -29,7 +29,7 @@ func SscanExample1() {
 	fmt.Println(n, name, age)
 }
 
-func SscanfExample1() {
+func Fmt1Sscanf1() {
 	var (
 		name string
 		age  int

@@ -6,7 +6,7 @@ type user struct {
 	name string
 }
 
-func FmtExample1() {
+func Fmt2Format1() {
 	u := user{"tang"}
 	//Printf 格式化输出
 	fmt.Printf("% + v\n", u)     //格式化输出结构
