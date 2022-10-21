@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func PipeRWExample() {
+func Io3PipeRW1() {
 	pipeReader, pipeWriter := io.Pipe()
 	go PipeWrite(pipeWriter)
 	go PipeRead(pipeReader)

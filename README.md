@@ -128,22 +128,12 @@ main2022092701.go
 
 [io — 基本的 IO 接口 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter01/01.1.html)
 
-main2022100201.go
-* io/reader1.go
-* io/readerat1.go
-* io/writeat1.go
-* io/readfrom1.go
-* io/writeto1.go
-* io/seeker1.go
-* io/byterwer1.go
-* io/limitedreader1.go
-* io/piperw1.go
-* io/copy1.go
-* io/multirw1.go
+* io/io1.go
+* io/io2.go
+* io/io3.go
 
 [ioutil — 方便的 IO 操作函数集 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter01/01.2.html)
 
-main2022101201.go
 * io/ioutil/ioutil2.go
 
 [fmt — 格式化 IO · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter01/01.3.html)

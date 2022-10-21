@@ -1,10 +1,30 @@
 package main
 
-import (
-	"github.com/Jinx-Heniux/jun-golang/io/bufio"
-)
-
 func main() {
+
+	// io.Io1Reader1()
+
+	// io.Io2ReadAt1()
+
+	// io.Io2WriteAt1()
+	// io.Io2ReadFrom1()
+
+	// io.Io2WriteTo1()
+
+	// io.Io2Seeker1()
+
+	// io.Io2ByteRWer1()
+
+	// io.Io2LimitedReader1()
+
+	// io.Io3PipeRW1()
+
+	// io.Io2Copy1()
+	// io.Io2CopyN1()
+
+	// io.Io2MultiWriter1()
+
+	// io.Io2MultiReader1()
 
 	// bufio.Bufio1Example1()
 
@@ -42,6 +62,6 @@ func main() {
 
 	// bufio.Bufio3NewScannerScan2()
 
-	bufio.Bufio3NewScannerScan3()
+	// bufio.Bufio3NewScannerScan3()
 
 }

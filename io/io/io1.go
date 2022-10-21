@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func ReaderExample() {
+func Io1Reader1() {
 FOREND:
 	for {
 		readerMenu()
@@ -24,9 +24,9 @@ FOREND:
 			fmt.Println("请输入不多于9个字符，以回车结束：")
 			data, err = ReadFrom(os.Stdin, 11)
 		case "2":
-			file, err := os.Open("../io/01.txt")
+			file, err := os.Open("./io/io/Io1Reader1.txt")
 			if err != nil {
-				fmt.Println("打开文件 01.txt 错误:", err)
+				fmt.Println("打开文件 Io1Reader1.txt 错误:", err)
 				continue
 			}
 			data, _ = ReadFrom(file, 9)
