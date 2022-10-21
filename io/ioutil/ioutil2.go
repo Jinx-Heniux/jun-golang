@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func IoutilExample2() {
+func Ioutil2ReadDir1() {
 	dir := os.Args[1]
 	listAll(dir, 0)
 }

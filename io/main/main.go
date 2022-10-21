@@ -8,11 +8,11 @@ func main() {
 
 	// bufio.Bufio1Example1()
 
-	// ioutil.IoutilExample1()
+	// ioutil.Ioutil1Example1()
 
 	// bufio.Bufio4CatCommand1()
 
-	// ioutil.IoutilExample2()
+	// ioutil.Ioutil2ReadDir1()
 
 	// fmt.Fmt1Fprintf1()
 

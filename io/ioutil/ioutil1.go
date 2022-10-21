@@ -22,7 +22,7 @@ func re() {
 	fmt.Println(string(content))
 }
 
-func IoutilExample1() {
+func Ioutil1Example1() {
 	wr()
 	re()
 }
