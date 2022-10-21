@@ -45,7 +45,7 @@ func re() {
 
 }
 
-func BufioExample1() {
+func Bufio1Example1() {
 	wr()
 	re()
 }

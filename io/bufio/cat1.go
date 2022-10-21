@@ -19,7 +19,7 @@ func cat(r *bufio.Reader) {
 	}
 }
 
-func CatExample1() {
+func CatCommand1() {
 	flag.Parse() // 解析命令行参数
 	if flag.NArg() == 0 {
 		// 如果没有参数默认从标准输入读取内容

@@ -6,11 +6,11 @@ import (
 
 func main() {
 
-	// bufio.BufioExample1()
+	// bufio.Bufio1Example1()
 
 	// ioutil.IoutilExample1()
 
-	// bufio.CatExample1()
+	// bufio.CatCommand1()
 
 	// ioutil.IoutilExample2()
 
@@ -18,7 +18,7 @@ func main() {
 
 	// fmt.Placeholder1()
 
-	// bufio.BufioExample2()
+	// bufio.Bufio2NewReaderReadString1()
 
 	// fmt.FmtExample1()
 

@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func BufioExample2() {
+func Bufio2NewReaderReadString1() {
 
 	reader := bufio.NewReader(os.Stdin) // 从标准输入生成读对象
 	fmt.Print("请输入内容：")
