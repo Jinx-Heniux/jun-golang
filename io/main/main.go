@@ -40,6 +40,8 @@ func main() {
 
 	// bufio.Bufio3NewScannerSplit()
 
-	bufio.Bufio3NewScannerScan2()
+	// bufio.Bufio3NewScannerScan2()
+
+	bufio.Bufio3NewScannerScan3()
 
 }
