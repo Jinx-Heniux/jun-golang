@@ -1,6 +1,8 @@
 package main
 
-import "github.com/Jinx-Heniux/jun-golang/slice/slice1"
+import (
+	"github.com/Jinx-Heniux/jun-golang/slice/slice2"
+)
 
 func main() {
 
@@ -41,6 +43,16 @@ func main() {
 	// slice1.Slice1String2()
 	// slice1.Slice1String3()
 
-	slice1.Slice1Cap3()
+	// slice1.Slice1Cap3()
+
+	/////////////////////////////////////////
+
+	// slice2.Slice2Array1()
+
+	// slice2.Slice2Array2()
+
+	// slice2.Slice2Pointer1()
+
+	slice2.Slice2Pointer2()
 
 }

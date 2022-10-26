@@ -14,6 +14,10 @@ main2022100401.go
 [切片Slice · Go语言中文文档](https://www.topgoer.com/go%E5%9F%BA%E7%A1%80/%E5%88%87%E7%89%87Slice.html)
 
 * slice/slice1/slice1.go
+* slice/slice2/slice1.go
+
+[Slice底层实现 · Go语言中文文档](https://www.topgoer.com/go%E5%9F%BA%E7%A1%80/Slice%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0.html)
+
 * slice/slice2/slice2.go
 
 [结构体 · Go语言中文文档](https://www.topgoer.com/go%E5%9F%BA%E7%A1%80/%E7%BB%93%E6%9E%84%E4%BD%93.html)

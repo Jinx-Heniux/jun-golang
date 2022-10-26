@@ -2,47 +2,96 @@ package slice2
 
 import (
 	"fmt"
+	"unsafe"
 )
 
-var slice = make([]int, 0)
-var slice0 []int = make([]int, 10)
-var slice1 = make([]int, 10)
-var slice2 = make([]int, 10, 10)
+func Slice2Array1() {
+	arrayA := [2]int{100, 200}
+	var arrayB [2]int
 
-func Slice2Make1() {
-	fmt.Printf("(%T)(%d)(%d) ", slice, len(slice), cap(slice))
-	fmt.Printf("make全局slice : %v\n", slice)
-	fmt.Printf("(%T)(%d)(%d) ", slice0, len(slice0), cap(slice0))
-	fmt.Printf("make全局slice0 : %v\n", slice0)
-	fmt.Printf("(%T)(%d)(%d) ", slice1, len(slice1), cap(slice1))
-	fmt.Printf("make全局slice1 : %v\n", slice1)
-	fmt.Printf("(%T)(%d)(%d) ", slice2, len(slice2), cap(slice2))
-	fmt.Printf("make全局slice2 : %v\n", slice2)
-	fmt.Println("--------------------------------------")
-	slice3 := make([]int, 10)
-	slice4 := make([]int, 10)
-	slice5 := make([]int, 10, 10)
-	slice6 := make([]int, 0, 10)
-	slice7 := make([]int, 0)
-	fmt.Printf("(%T)(%d)(%d) ", slice3, len(slice3), cap(slice3))
-	fmt.Printf("make局部slice3 : %v\n", slice3)
-	fmt.Printf("make局部slice4 : %v\n", slice4)
-	fmt.Printf("make局部slice5 : %v\n", slice5)
-	fmt.Printf("(%T)(%d)(%d) ", slice6, len(slice6), cap(slice6))
-	fmt.Printf("make局部slice6 : %v\n", slice6)
-	fmt.Printf("(%T)(%d)(%d) ", slice7, len(slice7), cap(slice7))
-	fmt.Printf("make局部slice7 : %v\n", slice7)
+	arrayB = arrayA
+
+	fmt.Printf("arrayA : %p , %v\n", &arrayA, arrayA)
+	fmt.Printf("arrayB : %p , %v\n", &arrayB, arrayB)
+
+	testArray(arrayA)
+}
+
+func testArray(x [2]int) {
+	fmt.Printf("func Array : %p , %v\n", &x, x)
+}
+
+// arrayA : 0xc000138000 , [100 200]
+// arrayB : 0xc000138010 , [100 200]
+// func Array : 0xc000138050 , [100 200]
+// 三个内存地址都不同，这也就验证了 Go 中数组赋值和函数传参都是值复制的。
+
+func Slice2Array2() {
+	arrayA := [2]int{100, 200}
+	fmt.Printf("(%T)(%d)(%d)(%p)\n", arrayA, len(arrayA), cap(arrayA), &arrayA)
+	fmt.Printf("(%T)(%d)(%d)(%p)\n", arrayA, len(arrayA), cap(arrayA), &arrayA[0])
+
+	fmt.Println()
+	testArrayAPoint(&arrayA) // 1.传数组指针
+	fmt.Println()
+
+	arrayB := arrayA[:]
+	testArrayBPoint(&arrayB) // 2.传切片
+	fmt.Println()
+
+	fmt.Printf("arrayA : %p , %v\n", &arrayA, arrayA)
+	fmt.Printf("arrayB : %p , %v\n", &arrayB, arrayB)
+	fmt.Printf("arrayB[0] : %p , %v\n", &arrayB[0], arrayB[0])
+}
+
+func testArrayAPoint(x *[2]int) {
+	fmt.Printf("func ArrayA : %p , %v\n", x, *x)
+	(*x)[1] += 100
+	fmt.Printf("func ArrayA : %p , %v\n", x, *x)
+}
+
+func testArrayBPoint(x *[]int) {
+	fmt.Printf("func ArrayB : %p , %v\n", x, *x)
+	(*x)[1] += 100
+	fmt.Printf("func ArrayB : %p , %v\n", x, *x)
 }
 
 /*
-([]int)(0)(0) make全局slice : []
-([]int)(10)(10) make全局slice0 : [0 0 0 0 0 0 0 0 0 0]
-([]int)(10)(10) make全局slice1 : [0 0 0 0 0 0 0 0 0 0]
-([]int)(10)(10) make全局slice2 : [0 0 0 0 0 0 0 0 0 0]
---------------------------------------
-([]int)(10)(10) make局部slice3 : [0 0 0 0 0 0 0 0 0 0]
-make局部slice4 : [0 0 0 0 0 0 0 0 0 0]
-make局部slice5 : [0 0 0 0 0 0 0 0 0 0]
-([]int)(0)(10) make局部slice6 : []
-([]int)(0)(0) make局部slice7 : []
+([2]int)(2)(2)(0xc00001c110)
+([2]int)(2)(2)(0xc00001c110)
+
+func ArrayA : 0xc00001c110 , [100 200]
+func ArrayA : 0xc00001c110 , [100 300]
+
+func ArrayB : 0xc00000c030 , [100 300]
+func ArrayB : 0xc00000c030 , [100 400]
+
+arrayA : 0xc00001c110 , [100 400]
+arrayB : 0xc00000c030 , [100 400]
+arrayB[0] : 0xc00001c110 , 100
 */
+
+func Slice2Pointer1() {
+	s := make([]byte, 200)
+	ptr := unsafe.Pointer(&s[0]) // 从 slice 中得到一块内存地址
+	fmt.Printf("&s:%p | &arr:%p | %p\n", &s, ptr, s)
+	// &s:0xc00000c030 | &arr:0xc00007e000 | 0xc00007e000
+}
+
+func Slice2Pointer2() {
+	var ptr unsafe.Pointer
+	fmt.Printf("ptr: %T | %v | %p | %p\n", ptr, ptr, &ptr, ptr)
+	fmt.Println()
+
+	var s1 = struct {
+		addr unsafe.Pointer
+		len  int
+		cap  int
+	}{ptr, 2, 2}
+	fmt.Printf("s1: %T | %v | %p | %p\n", s1, s1, &s1, &s1.addr)
+	fmt.Println()
+
+	s := *(*[]byte)(unsafe.Pointer(&s1))
+	fmt.Printf("s: %T | %v | %p | %p", s, s, &s, s)
+
+}
