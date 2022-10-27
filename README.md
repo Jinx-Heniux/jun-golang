@@ -4,8 +4,7 @@
 
 [基本类型 · Go语言中文文档](https://www.topgoer.com/go%E5%9F%BA%E7%A1%80/%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.html)
 
-main2022100401.go
-* datatype/string1.go
+* datatype/string/string1.go
 
 [数组Array · Go语言中文文档](https://www.topgoer.com/go%E5%9F%BA%E7%A1%80/%E6%95%B0%E7%BB%84Array.html)
 
