@@ -235,10 +235,12 @@ func Map1Example1() {
 
 	//声明一个map类型变量,
 	//map的key的类型是string，value的类型是string
-	var mapTemp map[string]string
+	// var mapTemp map[string]string
 
 	//使用make函数初始化这个变量,并指定大小(也可以不指定)
-	mapTemp = make(map[string]string, 10)
+	// mapTemp = make(map[string]string, 10)
+
+	var mapTemp = make(map[string]string, 10)
 
 	//存储key ，value
 	mapTemp["xiaoming"] = "北京"
