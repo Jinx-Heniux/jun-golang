@@ -166,3 +166,11 @@ main2022092701.go
 
 * io/bufio/bufio3.go
 
+[strings — 字符串操作 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter02/02.1.html)
+
+* text/strings/strings1.go
+
+[bytes — byte slice 便利操作 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter02/02.2.html)
+
+* text/bytes/bytes1.go
+
