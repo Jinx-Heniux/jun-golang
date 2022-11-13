@@ -7,5 +7,9 @@ func main() {
 
 	// flowcontrol.Flowcontron1IfElse1()
 
-	flowcontrol.Flowcontron1IfNested1()
+	// flowcontrol.Flowcontron1IfNested1()
+
+	// flowcontrol.Switch1Case1()
+
+	flowcontrol.Switch1Type1()
 }
