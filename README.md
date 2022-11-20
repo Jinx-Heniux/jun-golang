@@ -51,6 +51,10 @@ main2022100601.go
 
 * flowcontrol/select1.go
 
+[循环语句for · Go语言中文文档](https://www.topgoer.com/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5for.html)
+
+* flowcontrol/for1.go
+
 [异常处理 · Go语言中文文档](https://www.topgoer.com/%E5%87%BD%E6%95%B0/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html)
 
 exception/exception.go
