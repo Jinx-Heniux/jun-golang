@@ -26,6 +26,12 @@ func main() {
 
 	// flowcontrol.For1Example3()
 
-	flowcontrol.For1PrimeNumber1()
+	// flowcontrol.For1PrimeNumber1()
+
+	// flowcontrol.Range1Example1()
+
+	// flowcontrol.Range1Example2()
+
+	flowcontrol.Range1Example3()
 
 }
