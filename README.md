@@ -156,9 +156,32 @@ main2022092701.go
 * viper/viper.go
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
-
-
 
 # 在线文档：Go语言标准库
 
@@ -189,4 +212,8 @@ main2022092701.go
 [bytes — byte slice 便利操作 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter02/02.2.html)
 
 * text/bytes/bytes1.go
+
+[unicode — Unicode 码点、UTF-8/16 编码 · Go语言标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter02/02.5.html)
+
+* text/unicode/unicode1.go
 
